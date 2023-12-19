@@ -45,6 +45,7 @@ class EvaluationTask(Enum):
     TRACKING = "tracking"
     PREDICTION = "prediction"
     SENSING = "sensing"
+    CAMERALIDARFUSION = 'camera_lidar_fusion'
 
     # 2D
     DETECTION2D = "detection2d"
@@ -70,6 +71,7 @@ class EvaluationTask(Enum):
             EvaluationTask.PREDICTION,
             EvaluationTask.SENSING,
             EvaluationTask.FP_VALIDATION,
+            EvaluationTask.CAMERALIDARFUSION,
         )
 
     def is_2d(self) -> bool:

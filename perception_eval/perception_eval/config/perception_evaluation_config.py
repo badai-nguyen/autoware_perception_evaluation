@@ -69,6 +69,7 @@ class PerceptionEvaluationConfig(_EvaluationConfigBase):
         "tracking",
         "prediction",
         "fp_validation",
+        "camera_lidar_fusion",
     ]
 
     def __init__(
